@@ -1,6 +1,11 @@
-# Cocoa Enhanced
+# Cocoa Enhanced, enhanced.
 
 [![license](https://img.shields.io/github/license/mashape/apistatus.svg)](https://github.com/mtn/cocoa-eh-hugo-theme/blob/master/LICENSE)
+
+This is a fork of the [cocoa-eh Hugo
+theme](https://github.com/mtn/cocoa-eh-hugo-theme). For starters, I've added a
+tags section accessible from the navbar or via /tags route that lets you explore posts by tags. This is especially useful when writing about a variety of different topics.
+
 
 **Cocoa Enhanced** is a clean, fast, and responsive [Hugo](http://gohugo.io) [theme](https://github.com/spf13/hugoThemes/) with cool typography. The main goal of this theme is to be simple and fast but also highly customizable.
 
