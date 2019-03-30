@@ -1,0 +1,18 @@
+{{ partial "header.html" . }}
+<div class="main column">
+    <div class="container">
+        <div class="content">
+            <div class="posts">
+                <div class="page-heading">Tags</div>
+                <ul id="all-tags">
+                {{ range $name, $taxonomy := .Site.Taxonomies.tags }}
+                    {{ with $.Site.GetPage (printf "/tags/%s" $name) }}
+                        <li><a href="{{ .Permalink }}">{{ $name }}</a></li>
+                    {{ end }}
+                {{ end }}
+                </ul>
+            </div>
+        </div>
+    </div>
+</div>
+{{ partial "footer.html" . }}

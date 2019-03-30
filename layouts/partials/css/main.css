@@ -157,12 +157,16 @@ div.header .content {
   align-items: center;
 }
 div.header .container .logo {
+  padding: 0.618em;
   {{ if .Site.Params.enlarged }}
   max-width: 200px;
+  border-radius: 50%;
   {{ else }}
   max-width: 100px;
+  border-radius: 50%;
   {{ end }}
   margin-left: -2em;
+  border-radius: 50%;
 }
 div.header .name {
   padding-top: 20px;
